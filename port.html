@@ -17,6 +17,8 @@
             <a href="#services" style="--i:3" >skill</a>
             <a href="#Portfolio" style="--i:4">Portfolio</a>
             <a href="#contact" style="--i:5">Contact</a>
+            <button class="btn-box">click me</button>
+
         </nav>
     </header>
 
@@ -27,8 +29,11 @@
         <div class="home-content">
             <h3>hello it's me</h3>
             <h1>krishna verma</h1>
-            <h3>And I'm a <span class="text">FrontEnd Developer</span></h3>
-            <p>I'm a Web Designer apart from that i am also a Graphic Designer..</p>
+            <div id="slider">
+                <div class="span">I am a</div>
+                <div class="span" id="sliderValue"></div>
+            </div>
+            <p>I'm a Web Designer apart from that i am also a UI/UX Designer..</p>
             <div class="home-sci">
                 <a href="https://www.facebook.com/cutexx.krish.3" style="--i:7"><i class='bx bxl-facebook'></i></a>
                 <a href="https://www.instagram.com/krish_47__/?hl=en" style="--i:8"><i class='bx bxl-instagram' ></i></a>
@@ -50,7 +55,7 @@
                 my short term goal is getting a job in reputed company and long term goal is to achieve a good position there. 
             </P>
             </p>
-            <a href="#services" class="btn-box"> My Skills</a>
+            <a href="https://drive.google.com/file/d/1EfzIeCnlcgSb02QWn8p-M-Mv50yz7mw5/view?usp=drivesdk" class="btn-box">Download Resume</a>
         </div>
     </section>
 
@@ -78,6 +83,26 @@
                         <a href="#" class="read">Learn More</a>
                     </div>
                 </div>
+                <div class="service-list2">
+                    <div>
+                        <i class='bx bxl-figma bx-flashing' style='color:#1be7d2' ></i>
+                        <h2>Figma designer</h2>
+                        <p></p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-tailwind-css bx-flashing' style='color:#1be7d2' ></i>
+                        <h2>Tailwind Css</h2>
+                        <p></p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-bootstrap bx-flashing' style='color:#1be7d2' ></i>
+                        <h2>Bootstrap</h2>
+                        <p></p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -89,42 +114,42 @@
             <h1 class="sub-title">My <span>Work</span></h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="1202933a-7aad-4280-97ce-91253459cd49.jpg">
+                    <img src="Screenshot 2024-07-29 002845.png">
                     <div class="layer">
-                        <h3>Calculator</h3>
-                        <p>Calculator Web is a free online calculator website covering math, finance, time, personal fitness, unit conversion, online tools, and many other areas.
+                        <h3>Burger Hut</h3>
+                        <p>Developed a responsive website for a fictional burger restaurant using HTML, CSS, and JavaScript.
                         </p>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="4a74b6fc-e915-416a-8e3f-652774deeb50.jpg">
+                    <img src="Screenshot 2024-05-13 014213.png">
                     <div class="layer">
-                        <h3>Registration Form</h3>
+                        <h3>Travel Website</h3>
                         <p>
-                            A registration form is a list of fields that a user will input data into and submit to a company or individual. There are many reasons why you would want a person to fill out a registration form.
+                            Developed a responsive website for a Travel agency using HTML, CSS, and JavaScript.
                         </p>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="833860b0-1bb3-4c37-b5b6-a270850c2d12.jpg">
+                    <img src="Screenshot 2024-06-21 230016.png">
                     <div class="layer">
-                        <h3>Temperature Converter</h3>
-                        <p>A temperature converter helps in the conversion of the measurement units of the temperature recorded in a particular unit
+                        <h3>Clothing Hut website</h3>
+                        <p>Implemented a responsive user interface with HTML, CSS, and Bootstrap.
                         </p>
                     </div>
                 </div>
             </div>
-            <a href="#contact" class="btn">Contact Me</a>
+            <a href="https://github.com/krish4702" class="btn"><i class=" fa fa-github-square" aria-hidden="true">GITHUB</i></a>
         </div>
     </div>
     
     
 
     <section class="contact" id="contact">
-        <div class="contect-text">
+        <div class="contact-text">
             <h2>Contact<span>Me</span></h2>
             <h4>lets work together</h4>
-            
+        
             <div class="contact-list">
                 <li><i class='bx bxs-send' style='color:#30e9d6'  ></i>kv399633@gmail.com</li>
                 <li><i class='bx bxs-phone' style='color:#30e9d6' ></i>7417736289</li>
@@ -137,12 +162,14 @@
             </div>
         </div>
          <div class="contact-form">
-            <form action="">
-                <input type="" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Your Email" required>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="71fdac96-aba8-4756-b814-e8b04031c5e6">
 
-                <input type="" placeholder="Enter Your Subject">
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="text" name="first_name" placeholder="Enter Your Name" required>
+                <input type="email"name="email" placeholder="Enter Your Email" required>
+
+                <input type="text"  name="subject"placeholder="Enter Your Subject">
+                <textarea name="text" name="message"id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
                 <input type="Submit" value="submit" class="send">
             </form>
          </div>
